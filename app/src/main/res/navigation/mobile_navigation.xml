@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.vdh.testnavigation.ui.book.BookFragment"
+        android:label="@string/menu_book"
+        tools:layout="@layout/book_fragment" />
+    <fragment
+        android:id="@+id/nav_authors"
+        android:name="com.vdh.testnavigation.ui.author.AuthorFragment"
+        android:label="@string/menu_authors"
+        tools:layout="@layout/book_fragment" />
+    <fragment
+        android:id="@+id/nav_series"
+        android:name="com.vdh.testnavigation.ui.series.SeriesFragment"
+        android:label="@string/menu_series"
+        tools:layout="@layout/series_fragment" />
+    <fragment
+        android:id="@+id/nav_format"
+        android:name="com.vdh.testnavigation.ui.format.FormatFragment"
+        android:label="@string/menu_format"
+        tools:layout="@layout/format_fragment" />
+    <fragment
+        android:id="@+id/nav_folder"
+        android:name="com.vdh.testnavigation.ui.Folder.FolderFragment"
+        android:label="@string/menu_folder"
+        tools:layout="@layout/folder_fragment" />
+    <fragment
+        android:id="@+id/nav_download"
+        android:name="com.vdh.testnavigation.ui.download.DownloadFragment"
+        android:label="@string/menu_download"
+        tools:layout="@layout/download_fragment" />
+    <fragment
+        android:id="@+id/nav_trash"
+        android:name="com.vdh.testnavigation.ui.trash.TrashFragment"
+        android:label="@string/menu_trash"
+        tools:layout="@layout/trash_fragment" />
+    <fragment
+        android:id="@+id/nav_setting"
+        android:name="com.vdh.testnavigation.ui.setting.SettingFragment"
+        android:label="@string/menu_setting"
+        tools:layout="@layout/setting_fragment" />
+    <fragment
+        android:id="@+id/nav_feedback"
+        android:name="com.vdh.testnavigation.ui.feedback.FeedBackFragment"
+        android:label="@string/menu_send_feedback"
+        tools:layout="@layout/feed_back_fragment" />
+</navigation>

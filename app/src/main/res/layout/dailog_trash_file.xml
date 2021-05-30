@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:padding="@dimen/_10sdp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_text_dialog_trash"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="Empty Trash"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="@dimen/_16sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:id="@+id/gr_trash"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/tv_text_dialog_trash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rb_deice"
+            android:text="Delete files from the device"
+            android:paddingLeft="@dimen/_10sdp"
+            android:button="@drawable/ic_radio_custom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/rb_app"
+            android:text="Delete files from the application"
+            android:paddingLeft="@dimen/_10sdp"
+            android:button="@drawable/ic_radio_custom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+    <TextView
+        android:id="@+id/btn_cannel"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/gr_trash"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:padding="@dimen/_10sdp"
+        android:text="Cannel"
+        android:layout_marginLeft="@dimen/_50sdp"
+        android:background="@drawable/ic_bg_item_tablayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/btn_clean"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/gr_trash"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:padding="@dimen/_10sdp"
+        android:text="Clean"
+        android:layout_marginLeft="@dimen/_120sdp"
+        android:background="@drawable/ic_bg_item_tablayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

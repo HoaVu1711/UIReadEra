@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/gr1"
+        >
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_book"
+            android:title="@string/menu_book" />
+        <item
+            android:id="@+id/nav_authors"
+            android:icon="@drawable/ic_author"
+            android:title="@string/menu_authors" />
+        <item
+            android:id="@+id/nav_series"
+            android:icon="@drawable/ic_series"
+            android:title="@string/menu_series" />
+        <item
+            android:id="@+id/nav_format"
+            android:icon="@drawable/ic_format"
+            android:title="@string/menu_format" />
+        <item
+            android:id="@+id/nav_folder"
+            android:icon="@drawable/ic_folder"
+            android:title="@string/menu_folder" />
+        <item
+            android:id="@+id/nav_download"
+            android:icon="@drawable/ic_download"
+            android:title="@string/menu_download" />
+        <item
+            android:id="@+id/nav_trash"
+            android:icon="@drawable/ic_trash"
+            android:title="@string/menu_trash" />
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/gr2">
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_setting"
+            android:title="@string/menu_setting" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_send_feedback"
+            android:title="@string/menu_send_feedback" />
+    </group>
+</menu>
